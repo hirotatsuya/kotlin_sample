@@ -44,3 +44,7 @@ dependencies {
 task code << {
 	'code ../kotlin_sample'.execute()
 }
+
+task hello << {
+	println('Hello gradle')
+}
