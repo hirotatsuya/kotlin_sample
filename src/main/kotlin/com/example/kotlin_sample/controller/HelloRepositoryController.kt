@@ -15,17 +15,8 @@ class HelloRepositoryController {
     // /hello/repoというアクセスに対して処理を行う
     @RequestMapping(value = "/{id}", method = arrayOf(RequestMethod.GET))
     fun helloRepo(@PathVariable(value = "id") id: String): MutableList<HelloModel> {
-
         val toIntId: Int = id.toInt()
         val hello: MutableList<HelloModel> = helloRepository.getHello(toIntId)
         return hello
     }
-
-    // テスト
-//    @RequestMapping(value = "/{id}", method = arrayOf(RequestMethod.GET))
-//    fun helloRepo(@PathVariable(value = "id") id: String): Int {
-//
-//        val toIntId: Int = id.toInt()
-//        return toIntId
-//    }
 }

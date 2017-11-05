@@ -14,7 +14,6 @@ class HelloRepository {
     // sql文
     private val selectHelloById : String = "select id, text from hello where id = ?";
 
-    // よくわからん。おまじないｗ
     val toHelloModel: (Row) -> HelloModel = { row ->
         HelloModel(
             row.int(columnLabel = "id"),
@@ -30,7 +29,6 @@ class HelloRepository {
             println(selectHello)
             returnedList.addAll(it.run(selectHello));
         }
-        println(returnedList) // デバック用
         return returnedList;
     }
 }
