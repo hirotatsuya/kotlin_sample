@@ -16,7 +16,6 @@ class BaseRepository {
             hikariConfig.password = "0000";
             hikariConfig.driverClassName = "com.mysql.jdbc.Driver"
             val dataSource : HikariDataSource = HikariDataSource(hikariConfig);
-
             dataSource;
         }
 
