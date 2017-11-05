@@ -7,6 +7,8 @@ import springfox.documentation.builders.RequestHandlerSelectors
 import springfox.documentation.spi.DocumentationType
 import springfox.documentation.spring.web.plugins.Docket
 
+// swaggerのためのやつ
+// 使ってないけど一応。。。
 @EnableSwagger2
 @Configuration
 class SwaggerConfiguration {

@@ -5,6 +5,7 @@ import com.zaxxer.hikari.HikariDataSource
 import kotliquery.Session
 import kotliquery.sessionOf
 
+// DB情報
 class BaseRepository {
     companion object {
 

@@ -7,7 +7,7 @@ import kotliquery.queryOf
 import kotliquery.Row
 import org.springframework.stereotype.Repository
 
-
+// DBにアクセスして値を取得する
 @Repository
 class HelloRepository {
 
@@ -17,8 +17,8 @@ class HelloRepository {
     // よくわからん。おまじないｗ
     val toHelloModel: (Row) -> HelloModel = { row ->
         HelloModel(
-                row.int(columnLabel = "id"),
-                row.string(columnLabel = "text")
+            row.int(columnLabel = "id"),
+            row.string(columnLabel = "text")
         )
     }
 
@@ -30,7 +30,7 @@ class HelloRepository {
             println(selectHello)
             returnedList.addAll(it.run(selectHello));
         }
-        println(returnedList)
+        println(returnedList) // デバック用
         return returnedList;
     }
 }
