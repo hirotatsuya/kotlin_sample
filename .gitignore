@@ -24,5 +24,6 @@ dist/
 nbdist/
 .nb-gradle/
 
-### Tatsuya add ###
+### others ###
 out/
+*.jar

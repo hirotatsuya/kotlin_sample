@@ -1,7 +1,7 @@
-package com.example.kotlin_sample.repository
+package sample.repository
 
-import com.example.kotlin_sample.BaseRepository
-import com.example.kotlin_sample.model.HelloModel
+import sample.BaseRepository
+import sample.model.HelloModel
 import kotliquery.Session
 import kotliquery.queryOf
 import kotliquery.Row

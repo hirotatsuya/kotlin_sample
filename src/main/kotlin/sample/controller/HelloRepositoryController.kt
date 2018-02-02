@@ -1,7 +1,7 @@
-package com.example.kotlin_sample.controller
+package sample.controller
 
-import com.example.kotlin_sample.model.HelloModel
-import com.example.kotlin_sample.repository.HelloRepository
+import sample.model.HelloModel
+import sample.repository.HelloRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.*
 

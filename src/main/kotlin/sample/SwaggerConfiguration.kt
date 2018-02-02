@@ -1,4 +1,4 @@
-package com.example.kotlin_sample
+package sample
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
@@ -15,7 +15,7 @@ class SwaggerConfiguration {
     @Bean
     fun customDocket(): Docket {
         return Docket(DocumentationType.SWAGGER_2).select()
-            .apis(RequestHandlerSelectors.basePackage("com.example.kotlin_sample.controller"))
+            .apis(RequestHandlerSelectors.basePackage("sample.controller"))
             .build()
     }
 }

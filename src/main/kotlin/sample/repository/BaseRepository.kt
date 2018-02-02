@@ -1,4 +1,4 @@
-package com.example.kotlin_sample
+package sample
 
 import com.zaxxer.hikari.HikariConfig
 import com.zaxxer.hikari.HikariDataSource

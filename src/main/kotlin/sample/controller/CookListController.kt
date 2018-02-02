@@ -1,7 +1,7 @@
-package com.example.kotlin_sample.controller
+package sample.controller
 
-import com.example.kotlin_sample.model.CookList
-import com.example.kotlin_sample.repository.CookListRepository
+import sample.model.CookList
+import sample.repository.CookListRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.*
 

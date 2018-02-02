@@ -1,7 +1,7 @@
-package com.example.kotlin_sample.repository
+package sample.repository
 
-import com.example.kotlin_sample.BaseRepository
-import com.example.kotlin_sample.model.CookList
+import sample.BaseRepository
+import sample.model.CookList
 import kotliquery.Session
 import kotliquery.queryOf
 import kotliquery.Row

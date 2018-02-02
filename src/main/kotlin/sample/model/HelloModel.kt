@@ -1,4 +1,4 @@
-package com.example.kotlin_sample.model
+package sample.model
 
 import com.fasterxml.jackson.annotation.JsonCreator
 

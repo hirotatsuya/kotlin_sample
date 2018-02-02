@@ -1,4 +1,4 @@
-package com.example.kotlin_sample
+package sample
 
 import org.junit.Test
 import org.junit.runner.RunWith
