@@ -1,6 +1,6 @@
 kotlin study
 ==============
 - コンパイル
-  - `kotlinc hello.kt -include-runtime -d hello.jar`
+  - `kotlinc (target).kt -include-runtime -d (target).jar`
 - 実行
-  - `java -jar hello.jar`
+  - `java -jar (target).jar`
